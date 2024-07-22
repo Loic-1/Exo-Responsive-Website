@@ -168,7 +168,7 @@ img {
     .nav__menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background-color: hsla(228, 24%, 6%, 0.2);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
@@ -195,10 +195,18 @@ img {
     color: var(--first-color);
 }
 
-.nav
+.nav__close{
+    position: absolute;
+    top: 1.15rem;
+    right: 1.5rem;
+    font-size: 1.25rem;
+}
 
 /* Show menu */
 
+.show-menu{
+    right: 0;
+}
 
 /* Add blur header */
 
