@@ -214,7 +214,7 @@ img {
 
 /* Add blur header */
 
-.blur-Header::after {
+.blur-header::after {
   content: '';
   position: absolute;
   width: 1000%;
